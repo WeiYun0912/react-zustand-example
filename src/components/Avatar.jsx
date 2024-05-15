@@ -3,7 +3,7 @@ import useUserZus from "../store/useUser";
 
 const Avatar = () => {
   const { userSetting } = useUserZus();
-  //   const { avatar } = useUser();s
+  //   const { avatar } = useUser();ss
   return <img width={100} src={userSetting.avatar} />;
 };
 
