@@ -13,7 +13,7 @@ export const UserContextProvider = ({ children }) => {
   //   };
   //   const changePanda = () => {
   //     setUserSetting((prev) => ({ ...prev, avatar: "panda.png" }));
-  //   };
+  //   };s
   const changeAvatar = (avatar) => {
     setUserSetting((prev) => ({ ...prev, avatar }));
   };
